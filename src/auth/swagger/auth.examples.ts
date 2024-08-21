@@ -1,0 +1,47 @@
+export const AuthResponseExample = {
+  id: '78fca80b-7758-4b00-b441-c5780ab34e06',
+  email: 'can55@gmail.com',
+  first_name: 'can55',
+  last_name: 'can55',
+  phone_number: '44415552231224',
+  postcode: 'AL5 3NG',
+  postcode_latitude: 51.832128,
+  postcode_longitude: -0.383008,
+  photo: null,
+  role: {
+    id: '58412135-2796-499e-8f62-12f17d3af559',
+    role: 'candidate',
+    role_desc: 'User can apply to jobs and create a profile.',
+  },
+  candidate_data: {
+    id: '38a7c0b4-646b-446e-ad7a-47cf81af74cc',
+    sector_id: 'f762f821-b097-4423-a5d9-ab5291e12c8d',
+    hospitality_first_role_id: '6a1f7c67-02bb-49c4-ba9d-4d0bfce3e22f',
+    hospitality_second_role_id: '6040bfc6-2fde-4ce6-8102-68c93bd0e3b9',
+    hospitality_main_establishment_id: '6baf07dd-1b27-4777-a984-f34d25ee238d',
+    hospitality_second_establishment_id: '4a52e5f3-db34-4692-b621-871af1acb234',
+    construction_role_id: '926946eb-50a8-49cc-97f2-71cb75ba19e9',
+    construction_card_type_id: 'cbd0ab76-c9d8-43ba-be8d-5eea72bcf6cc',
+    years_experience_id: '302f73a8-2f03-4683-a57e-a746592f49bb',
+    daily_job_update_id: '5960dc43-9451-4dd4-8494-48e592396228',
+    agreement_to_contact: true,
+    verified: false,
+    skills: [
+      'cd7bbbb0-5b33-45a5-b64f-a156c0d1e369',
+      '57ec1359-ce51-474e-862f-93c05da6e694',
+      '86267ceb-c01d-4ed4-b95d-9ec686fd35ae',
+    ],
+  },
+  recruiter_data: {
+    id: '6b87b418-4166-4932-93c2-421776883409',
+    company_name: 'comp 3',
+  },
+  billing: {
+    credits: 250,
+    pricing_plan: {
+      id: '550e8400-e29b-41d4-a716-446655440000',
+      name: 'Free',
+      value: 'free',
+    },
+  },
+};
